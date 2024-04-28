@@ -7,6 +7,37 @@ A curated list of dataset for industrial anomaly detection.
 + [PCB-hub](#PCB-hub)
 
 ## 2D
+## VisA 
+ [[dataset]](https://github.com/amazon-science/spot-diff) [[paper]](https://arxiv.org/pdf/2207.14315v1.pdf) 
+The VisA dataset contains 12 subsets corresponding to 12 different objects as shown in the above figure. There are 10,821 images with 9,621 normal and 1,200 anomalous samples. Four subsets are different types of printed circuit boards (PCB) with relatively complex structures containing transistors, capacitors, chips, etc. For the case of multiple instances in a view, there are four subsets: Capsules, Candles, Macaroni1 and Macaroni2. Instances in Capsules and Macaroni2 largely differ in locations and poses. Moreover, there are four subsets including Cashew, Chewing gum, Fryum and Pipe fryum, where objects are roughly aligned. The anomalous images contain various flaws, including surface defects such as scratches, dents, color spots or crack, and structural defects like misplacement or missing parts.
+
+## MVTec-AD 
+[[dataset]](https://www.mvtec.com/company/research/datasets/mvtec-ad) [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Bergmann_MVTec_AD_--_A_Comprehensive_Real-World_Dataset_for_Unsupervised_Anomaly_CVPR_2019_paper.pdf) 
+![Local Image](mvtec-ad.png)
+MVTec AD is a dataset for benchmarking anomaly detection methods with a focus on industrial inspection. It contains over 5000 high-resolution images divided into 10 different object and 5 texture categories. Each category comprises a set of 3629 defect-free training images and a test set of 1725 images with various kinds of defects as well as images without defects.
+
+## MVTec-LOCO AD​
+[[dataset]](https://www.mvtec.com/company/research/datasets/mvtec-loco) [[paper]](https://link.springer.com/content/pdf/10.1007/s11263-022-01578-9.pdf)
+![Local Image](mvtec-loco.png)
+MVTec Logical Constraints Anomaly Detection (MVTec LOCO AD) dataset is intended for the evaluation of unsupervised anomaly localization algorithms. The dataset includes both structural and logical anomalies. It contains 3644 images from five different categories inspired by real-world industrial inspection scenarios. Structural anomalies appear as scratches, dents, or contaminations in the manufactured products. Logical anomalies violate underlying constraints, e.g., a permissible object being present in an invalid location or a required object not being present at all. The dataset also includes pixel-precise ground truth data for each anomalous region.
+
+## Real-IAD​​
+[[project]](https://realiad4ad.github.io/Real-IAD/) [[paper]](https://arxiv.org/abs/2403.12580)
+![Local Image](real-iad.png)
+Real-IAD is a large-scale, Real-world, and multi-view Industrial Anomaly Detection dataset, which contains 150K high-resolution images of 30 different objects, an order of magnitude larger than existing datasets. It has a larger range of defect area and ratio proportions, making it more challenging than previous datasets. 
+
+## BTAD
+[[dataset]](https://github.com/pankajmishra000/VT-ADL) 
+The BTAD dataset is a real-world industrial anomaly dataset. The dataset contains a total of 2830 real-world images of 3 industrial products showcasing body and surface defects, in wihch Product 1, 2 and 3 have 400, 1000 and 399 train images respectively.
+
+## DAGM
+[[dataset]](https://www.kaggle.com/datasets/mhskjelvareid/dagm-2007-competition-dataset-optical-inspection) 
+DAGM consists of ten texture classes with
+15,000 normal images and 2,100 abnormal images. Various defects that are visually close to the background, such as scratches and specks, constitute anomalous samples. We still perform the unsupervised paradigm, where the training set contains only normal samples
+
++ **MPDD**: 
+[[dataset]](https://github.com/stepanje/MPDD)
+MPDD contains 6 classes of metal parts, focusing on defect detection during the fabri- cation of painted metal parts. Its training set is composed of 888 normal samples without defects, and the test set is composed of 458 samples either normal or anomalous. In particular, samples in MPDD have non-homogeneous backgrounds with diverse spatial orientations, different po- sitions, and various light intensities, leading to greater challenges in anomaly detection.
 
 ## 3D
 
