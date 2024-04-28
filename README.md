@@ -7,38 +7,19 @@ A curated list of dataset for industrial anomaly detection.
 + [PCB-hub](#PCB-hub)
 
 ## 2D
-## VisA 
- [[dataset]](https://github.com/amazon-science/spot-diff) [[paper]](https://arxiv.org/pdf/2207.14315v1.pdf) 
-The VisA dataset contains 12 subsets corresponding to 12 different objects as shown in the above figure. There are 10,821 images with 9,621 normal and 1,200 anomalous samples. Four subsets are different types of printed circuit boards (PCB) with relatively complex structures containing transistors, capacitors, chips, etc. For the case of multiple instances in a view, there are four subsets: Capsules, Candles, Macaroni1 and Macaroni2. Instances in Capsules and Macaroni2 largely differ in locations and poses. Moreover, there are four subsets including Cashew, Chewing gum, Fryum and Pipe fryum, where objects are roughly aligned. The anomalous images contain various flaws, including surface defects such as scratches, dents, color spots or crack, and structural defects like misplacement or missing parts.
-
-## MVTec-AD 
-[[dataset]](https://www.mvtec.com/company/research/datasets/mvtec-ad) [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Bergmann_MVTec_AD_--_A_Comprehensive_Real-World_Dataset_for_Unsupervised_Anomaly_CVPR_2019_paper.pdf) 
-![Local Image](mvtec-ad.png)
-MVTec AD is a dataset for benchmarking anomaly detection methods with a focus on industrial inspection. It contains over 5000 high-resolution images divided into 10 different object and 5 texture categories. Each category comprises a set of 3629 defect-free training images and a test set of 1725 images with various kinds of defects as well as images without defects.
-
-## MVTec-LOCO AD​
-[[dataset]](https://www.mvtec.com/company/research/datasets/mvtec-loco) [[paper]](https://link.springer.com/content/pdf/10.1007/s11263-022-01578-9.pdf)
-![Local Image](mvtec-loco.png)
-MVTec Logical Constraints Anomaly Detection (MVTec LOCO AD) dataset is intended for the evaluation of unsupervised anomaly localization algorithms. The dataset includes both structural and logical anomalies. It contains 3644 images from five different categories inspired by real-world industrial inspection scenarios. Structural anomalies appear as scratches, dents, or contaminations in the manufactured products. Logical anomalies violate underlying constraints, e.g., a permissible object being present in an invalid location or a required object not being present at all. The dataset also includes pixel-precise ground truth data for each anomalous region.
-
-## Real-IAD​​
-[[project]](https://realiad4ad.github.io/Real-IAD/) [[paper]](https://arxiv.org/abs/2403.12580)
-![Local Image](real-iad.png)
-Real-IAD is a large-scale, Real-world, and multi-view Industrial Anomaly Detection dataset, which contains 150K high-resolution images of 30 different objects, an order of magnitude larger than existing datasets. It has a larger range of defect area and ratio proportions, making it more challenging than previous datasets. 
-
-## BTAD
-[[dataset]](https://github.com/pankajmishra000/VT-ADL) 
-The BTAD dataset is a real-world industrial anomaly dataset. The dataset contains a total of 2830 real-world images of 3 industrial products showcasing body and surface defects, in wihch Product 1, 2 and 3 have 400, 1000 and 399 train images respectively.
-
-## DAGM
-[[dataset]](https://www.kaggle.com/datasets/mhskjelvareid/dagm-2007-competition-dataset-optical-inspection) 
-DAGM consists of ten texture classes with
-15,000 normal images and 2,100 abnormal images. Various defects that are visually close to the background, such as scratches and specks, constitute anomalous samples. We still perform the unsupervised paradigm, where the training set contains only normal samples
-
-+ **MPDD**: 
-[[dataset]](https://github.com/stepanje/MPDD)
-MPDD contains 6 classes of metal parts, focusing on defect detection during the fabri- cation of painted metal parts. Its training set is composed of 888 normal samples without defects, and the test set is composed of 458 samples either normal or anomalous. In particular, samples in MPDD have non-homogeneous backgrounds with diverse spatial orientations, different po- sitions, and various light intensities, leading to greater challenges in anomaly detection.
-
++ **VisA ​​​**:The VisA dataset contains 12 subsets corresponding to 12 different objects. There are 10,821 images with 9,621 normal and 1,200 anomalous samples. Four subsets are different types of printed circuit boards (PCB) with relatively complex structures containing transistors, capacitors, chips, etc. For the case of multiple instances in a view, there are four subsets: Capsules, Candles, Macaroni1 and Macaroni2. Instances in Capsules and Macaroni2 largely differ in locations and poses. Moreover, there are four subsets including Cashew, Chewing gum, Fryum and Pipe fryum, where objects are roughly aligned. The anomalous images contain various flaws, including surface defects such as scratches, dents, color spots or crack, and structural defects like misplacement or missing parts.[[link]](https://github.com/amazon-science/spot-diff)
++ **MVTec-AD​​​**:MVTec-AD contains 5354 high-resolution images divided into 10 different object and 5 texture categories. MVTec-AD consists of 3629 images for training and validation, and 1725 images for testing. The training set contains only normal images, while the test dataset contains both normal and anomalous images.[[link]](https://www.mvtec.com/company/research/datasets/mvtec-ad)
++ **MVTec-LOCO AD​​​**:MVTec Logical Constraints Anomaly Detection (MVTec LOCO AD) dataset is intended for the evaluation of unsupervised anomaly localization algorithms. The dataset includes both structural and logical anomalies. It contains 3644 images from five different categories. The dataset also includes pixel-precise ground truth data for each anomalous region. [[link]](https://www.mvtec.com/company/research/datasets/mvtec-loco)
++ **Real-IAD​​**:Real-IAD is a large-scale, real-world, and multi-view industrial anomaly detection dataset, which contains 151050 high-resolution images of 30 different objects (99721 normal iamges and 51329 anonaly images). It has a larger range of defect area and ratio proportions. [[link]](https://realiad4ad.github.io/Real-IAD/)
++ **BTAD**:The BTAD dataset contains a total of 2540 real-world images of 3 industrial products showcasing body and surface defects, in wihch Product 1, 2 and 3 have 400, 1000 and 399 train images respectively. All classes in this dataset belong to tex- tures.[[link]](https://github.com/pankajmishra000/VT-ADL) 
++ **DGAD**:DAGM consists of ten texture classes with 15,000 normal images and 2,100 abnormal images. Various defects that are visually close to the background, such as scratches and specks, constitute anomalous samples. We still perform the unsupervised paradigm, where the training set contains only normal samples.[[link]](https://www.kaggle.com/datasets/mhskjelvareid/dagm-2007-competition-dataset-optical-inspection) 
++ **MPDD**: MPDD contains 6 classes of metal parts, focusing on defect detection during the fabri- cation of painted metal parts. Its training set is composed of 888 normal samples without defects, and the test set is composed of 458 samples either normal or anomalous. In particular, samples in MPDD have non-homogeneous backgrounds with diverse spatial orientations, different po- sitions, and various light intensities, leading to greater challenges in anomaly detection.[[link]](https://github.com/stepanje/MPDD)
++ **MTD**: MTD includes 1344 images and ROIs of the concerning surface of magnetic tiles are cropped. Image files and pixel level labels are separated into six datasets according to different defect types: Blowhole, Crack, Fray, Break, Uneven (grinding uneven), and Free (no defects).[[Link]](https://github.com/abin24/Magnetic-tile-defect-datasets.)
++ **PKU-Market-Phone**: This dataset contains 3 types of surface defects: Oil, Scratch and Stain. It consists of 1200 images and 400 images for each defects. The defects are made by ourselves. The images are collected by industrial camera and the resolution is 1920×1080. The dataset is randomly divided into train:val:test=6:2:2. The dataset format is PASCAL VOC.​[[Link]](https://github.com/jianzhang96/MSD)
++ **PKU-GoodsAD**:​The GoodsAD dataset comprises 6 categories with 3136 images for training and 2988 images for testing. The dataset contains a total of 484 goods. Each category contains several common defects such as surface damage, deformation and opened. All images are acquired with 3000 ×3000 high-resolution. [[Link]](https://github.com/jianzhang96/GoodsAD)
++ **InsPLAD**:InsPLAD1 is a power line asset inspection in-the-wild dataset that offers multiple computer vision challenges, one being anomaly detection in power line components called InsPLAD-fault. Its data are real-world unmanned aerial vehicle images of operating power line transmission towers. It contains five power line object categories with one or two types of anomalies for each class, resulting in 11 662 images, of which 402 are samples of defective objects annotated on image level. [[Link]](https://github.com/andreluizbvs/InsPLAD)
++ **VISION​**:The VISION Datasets is a collection of 14 industrial inspection datasets, designed to explore the unique challenges of vision-based industrial inspection. These datasets cover a wide range of manufacturing processes, materials, and industries. The datasets have a total of 18k images. VISION V1 dataset includes 10k high-quality defect segmentation annotations on 4k images, spanning 44 defect types. The remaining 14k images are without labels to simulate the data-rich and annotation-rare scenario in real-world production. The VISION V2 dataset is with full annotation.[[Link]](https://huggingface.co/datasets/VISION-Workshop/VISION-Datasets)
++ **Defect Spectrum​**:Defect Spectrum dataset offers precise, semantics-abundant, and large-scale annotations for a wide range of industrial defects. This dataset is an enhancement over existing benchmarks(including MVTec-AD, VISION, DAGM and Cotton-Fabric.), providing refined annotations and introducing detailed semantic layers, allowing for the distinction between multiple defect types within a single image.
 ## 3D
 
 ## PCB-hub
