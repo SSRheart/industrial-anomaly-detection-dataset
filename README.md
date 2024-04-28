@@ -11,7 +11,6 @@ A curated list of dataset for industrial anomaly detection.
 ## 3D
 
 ## PCB-hub
-
-+VisA
-+Real-IAD
-+VISION
++ VisA
++ Real-IAD
++ VISION
