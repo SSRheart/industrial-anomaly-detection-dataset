@@ -1,4 +1,4 @@
-# industrial-anomaly-detection-dataset
+# Industrial-Anomaly-Detection-Dataset
 A curated list of dataset for industrial anomaly detection.
 
 ## Table of Contents
