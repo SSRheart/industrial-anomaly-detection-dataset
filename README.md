@@ -3,7 +3,7 @@ A curated list of dataset for industrial anomaly detection.
 
 ## Table of Contents
 + [2D](#2D)
-+ [3D](#3D)
++ [Multimodal](#Multimodal)
 + [PCB-hub](#PCB-hub)
 
 ## 2D
@@ -19,8 +19,9 @@ A curated list of dataset for industrial anomaly detection.
 + **PKU-GoodsAD**:​ The GoodsAD dataset comprises 6 categories with 3136 images for training and 2988 images for testing. The dataset contains a total of 484 goods. Each category contains several common defects such as surface damage, deformation and opened. All images are acquired with 3000 ×3000 high-resolution. [[Link]](https://github.com/jianzhang96/GoodsAD)
 + **InsPLAD**: InsPLAD1 is a power line asset inspection in-the-wild dataset that offers multiple computer vision challenges, one being anomaly detection in power line components called InsPLAD-fault. Its data are real-world unmanned aerial vehicle images of operating power line transmission towers. It contains five power line object categories with one or two types of anomalies for each class, resulting in 11,662 images, of which 402 are samples of defective objects annotated on the image level. [[Link]](https://github.com/andreluizbvs/InsPLAD)
 + **VISION​**: The VISION Datasets is a collection of 14 industrial inspection datasets, designed to explore the unique challenges of vision-based industrial inspection. These datasets cover a wide range of manufacturing processes, materials, and industries. VISION V1 dataset includes a total of 18,422 images, of which 4,165 images are annotated. The VISION V2 dataset with full annotation is released with 13804 annotated images. [[Link]](https://huggingface.co/datasets/VISION-Workshop/VISION-Datasets)
+
+## Multimodal
 + **Defect Spectrum​**: The Defect Spectrum dataset offers precise, semantics-abundant, and large-scale annotations for a wide range of industrial defects. This dataset is an enhancement over existing benchmarks(including MVTec-AD, VISION, DAGM, and Cotton-Fabric.), providing refined annotations and introducing detailed semantic layers, allowing for the distinction between multiple defect types within a single image. [[Link]](https://huggingface.co/datasets/DefectSpectrum/Defect_Spectrum)
-## 3D
 + **MVTec 3D-AD**: MVTec 3D-AD is a 3D anomaly detection dataset comprising over 4,000 RGB images and the corresponding high-resolution 3D point cloud data. Each of the 10 sub-categories of MVTec-3D AD is divided into a defect-free training set (2,656 training samples) and a test set (1,137 testing samples) containing various kinds of defects. [[Link]](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads)
 + **Anomaly-ShapeNet**: Anomaly-ShapeNet comprises a total of 1,600 samples which are distributed across 40 distinct categories. There are six kinds of anomalies, including bulge, concavity, crack, holes, and broken. Each training set for a category contains only four samples. Each test set for a category contains normal and various defective samples. [[Link]](https://github.com/Chopper-233/Anomaly-ShapeNet/tree/main)
 + **Real3D-AD**: Real3D-AD comprises a total of 1,254 samples that are distributed across 12 distinct categories. These categories include Airplane, Car, Candybar, Chicken, Diamond, Duck, Fish, Gemstone, Seahorse, Shell, Starfish, and Toffees. Each training sample is an absence of blind spots, and a realistic, high-accuracy prototype. There are 48 samples in the training set and 1,206 samples for testing. [[Link]](https://github.com/M-3LAB/Real3D-AD)
