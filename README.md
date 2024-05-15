@@ -25,6 +25,8 @@ A curated list of dataset for industrial anomaly detection.
 + **MVTec 3D-AD**: MVTec 3D-AD is a 3D anomaly detection dataset comprising over 4,000 RGB images and the corresponding high-resolution 3D point cloud data. Each of the 10 sub-categories of MVTec-3D AD is divided into a defect-free training set (2,656 training samples) and a test set (1,137 testing samples) containing various kinds of defects. [[Link]](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads)
 + **Anomaly-ShapeNet**: Anomaly-ShapeNet comprises a total of 1,600 samples which are distributed across 40 distinct categories. There are six kinds of anomalies, including bulge, concavity, crack, holes, and broken. Each training set for a category contains only four samples. Each test set for a category contains normal and various defective samples. [[Link]](https://github.com/Chopper-233/Anomaly-ShapeNet/tree/main)
 + **Real3D-AD**: Real3D-AD comprises a total of 1,254 samples that are distributed across 12 distinct categories. These categories include Airplane, Car, Candybar, Chicken, Diamond, Duck, Fish, Gemstone, Seahorse, Shell, Starfish, and Toffees. Each training sample is an absence of blind spots, and a realistic, high-accuracy prototype. There are 48 samples in the training set and 1,206 samples for testing. [[Link]](https://github.com/M-3LAB/Real3D-AD)
+
+
 ## PCB-hub
 + **VisA**: This dataset contains some subsets of PCB. [[Link]](https://github.com/amazon-science/spot-diff)
 + **Real-IAD**: This dataset contains some subsets of PCB. [[link]](https://realiad4ad.github.io/Real-IAD/)
